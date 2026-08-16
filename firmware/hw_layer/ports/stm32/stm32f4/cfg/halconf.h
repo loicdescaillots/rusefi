@@ -112,6 +112,9 @@
 #undef HAL_USE_SDC
 #define HAL_USE_SDC                 TRUE
 
+#undef HAL_USE_MMC_SPI
+#define HAL_USE_MMC_SPI             FALSE
+
 /**
  * @brief   Include support for MMC cards.
  * @note    MMC support is not yet implemented so this option must be kept
