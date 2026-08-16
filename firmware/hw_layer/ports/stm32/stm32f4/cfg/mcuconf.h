@@ -98,6 +98,7 @@
 /*
  * SDC driver system settings.
  */
+#define STM32_SDC_USE_SDIO1                 TRUE
 #define STM32_SDC_SDIO_DMA_PRIORITY         3
 #define STM32_SDC_SDIO_IRQ_PRIORITY         9
 #define STM32_SDC_WRITE_TIMEOUT_MS          250
