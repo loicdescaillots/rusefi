@@ -109,6 +109,8 @@
 /* SDC driver related settings.                                              */
 /*===========================================================================*/
 
+#undef HAL_USE_SDC
+#define HAL_USE_SDC                 TRUE
 
 /**
  * @brief   Include support for MMC cards.
